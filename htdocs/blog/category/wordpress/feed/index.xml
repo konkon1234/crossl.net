@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wordpress &#8211; memocon</title>
+	<atom:link href="/blog/category/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>WordPress】記事を書くのが楽しくなるプラグインActive Preview</title>
+		<link>/blog/wp-active-preview/</link>
+		<comments>/blog/wp-active-preview/#comments</comments>
+		<pubDate>Sat, 09 Feb 2013 15:05:56 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1295</guid>
+		<description><![CDATA[wordpressの投稿で一番めんどくさいのって記事を編集するたびにプレビューボタンを押して変更を確認するという作業ですよね。 その作業を劇的に改善してくれるのがActive Previewプラグインです。 Active [&#8230;]]]></description>
+		<wfw:commentRss>/blog/wp-active-preview/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>WP-PostViewsとWP-SuperCacheを両方使う場合は管理画面のBasic認証は避けた方がいい</title>
+		<link>/blog/postviews_and_wp-supercache/</link>
+		<comments>/blog/postviews_and_wp-supercache/#respond</comments>
+		<pubDate>Sun, 13 Jan 2013 13:16:14 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1205</guid>
+		<description><![CDATA[前のPostをしたところ@te2nyan氏にBasic認証がかかっていると指摘を受けた。 WordPressの管理画面からログアウトしてみてアクセスしてみると確かに画面は表示されているのにBasic認証の画面が表示されて [&#8230;]]]></description>
+		<wfw:commentRss>/blog/postviews_and_wp-supercache/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iTunesで再生した曲をブログ（wordpress）に表示する</title>
+		<link>/blog/wordpress_lastfm_plugin/</link>
+		<comments>/blog/wordpress_lastfm_plugin/#respond</comments>
+		<pubDate>Thu, 29 Dec 2011 13:44:30 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=206</guid>
+		<description><![CDATA[右にある「最近聞いてる曲」ってウェジット。 案外設置に手間取ったのでメモ代わりに記載。 このウェジットはlast.fmのプラグインlast.fm Live!で対応した。 使用しているwordpressは3.2.1。 la [&#8230;]]]></description>
+		<wfw:commentRss>/blog/wordpress_lastfm_plugin/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress】管理画面を強制的にSSL使用(FORCE_SSL_ADMIN)</title>
+		<link>/blog/wp_use_ssl/</link>
+		<comments>/blog/wp_use_ssl/#respond</comments>
+		<pubDate>Tue, 06 Sep 2011 03:17:35 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=26</guid>
+		<description><![CDATA[管理画面やログイン画面では強制的にSSLを使用したいと調べてみたところ 2.6から標準機能として備わっていることが判明。 http://wpdocs.sourceforge.jp/Administration_Over_ [&#8230;]]]></description>
+		<wfw:commentRss>/blog/wp_use_ssl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>プラグイン&#8217;WP TO TOP&#8217;を有効化するとエラーが出る</title>
+		<link>/blog/wp-to-top_fail/</link>
+		<comments>/blog/wp-to-top_fail/#respond</comments>
+		<pubDate>Fri, 02 Sep 2011 07:50:04 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=39</guid>
+		<description><![CDATA[アクティブ化するとエラーが出た。 Use of undefined constant headerWpToTop &#8211; assumed &#8216;headerWpToTop&#8217; ので以下のように修 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/wp-to-top_fail/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>wordpressのプラグインで警告</title>
+		<link>/blog/wp_notice_has_cap/</link>
+		<comments>/blog/wp_notice_has_cap/#comments</comments>
+		<pubDate>Mon, 29 Aug 2011 02:01:29 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=16</guid>
+		<description><![CDATA[&#8220;Notice: has_cap の使用はバージョン 2.0 から非推奨になりました ! 代わりに プラグインやテーマでのユーザーレベルの使用は推奨されていません。代わりに権限グループと権限を使ってください。 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/wp_notice_has_cap/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

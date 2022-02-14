@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Excel &#8211; memocon</title>
+	<atom:link href="/blog/category/excel/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>Office2016（Excel2016）のアニメーションをオフにする</title>
+		<link>/blog/off_office2016_animation/</link>
+		<comments>/blog/off_office2016_animation/#respond</comments>
+		<pubDate>Sat, 11 Jun 2016 13:52:08 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Excel]]></category>
+		<category><![CDATA[Windows]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2931</guid>
+		<description><![CDATA[あまり好意的な意見を見たことがないExcelのアニメーション、 代表的なのがフォーカスが移動時にニュルっと動くアニメーション。 オフにしたいですよね、、、 僕はオフにしたいです。 Microsoftの説明を見るとOS全体 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/off_office2016_animation/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ExcelのPowerPivot（アドオン）が読み込まなくなって有効化出来ない時の対応</title>
+		<link>/blog/excel_addon_active/</link>
+		<comments>/blog/excel_addon_active/#respond</comments>
+		<pubDate>Tue, 18 Jun 2013 09:36:02 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Excel]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1529</guid>
+		<description><![CDATA[会社のPC保守担当者が最近不在なことが多く、その為PCに詳しいだろうという理由だけでなんとなく保守担当の後継者に任命されたっぽい俺の元には様々な症状のヘルプ連絡が来るようになりました。 そんな連絡の１つで「Excel（2 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/excel_addon_active/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

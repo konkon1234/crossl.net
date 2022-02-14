@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Java Script &#8211; memocon</title>
+	<atom:link href="/blog/category/java-script/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>フォーム入力内容を保存・復元するChrome拡張を作成しました</title>
+		<link>/blog/remember-form-inputs/</link>
+		<comments>/blog/remember-form-inputs/#respond</comments>
+		<pubDate>Fri, 10 Mar 2017 07:51:02 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2972</guid>
+		<description><![CDATA[何番煎じかわかりませんが探した限り思った感じの拡張が見つからなかったので自分で作りました。 名前を付けてフォームの入力内容を保存・復元できます。 テスト入力などに活躍すると思うので使ってください。 Remember fo [&#8230;]]]></description>
+		<wfw:commentRss>/blog/remember-form-inputs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>React+Babel+WebpackでHello World</title>
+		<link>/blog/react_hello_world/</link>
+		<comments>/blog/react_hello_world/#respond</comments>
+		<pubDate>Mon, 11 Jan 2016 10:16:52 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+		<category><![CDATA[React]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2910</guid>
+		<description><![CDATA[流れが速すぎてWebの情報がすぐ古くなる界隈なので環境構築に手こずったのでメモ。 オフィシャル見るのが確実なんだろうけど&#8230; 1.必要パッケージをインストール [crayon-590a8ff36abf68363 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/react_hello_world/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>クソアプリアドベントカレンダー2015 10日目 ?</title>
+		<link>/blog/kuso_adv/</link>
+		<comments>/blog/kuso_adv/#respond</comments>
+		<pubDate>Wed, 09 Dec 2015 15:20:25 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2888</guid>
+		<description><![CDATA[※2015/12/10 このサイトで実行するリンクを追加 これはクソアプリ Advent Calendar 10日目の記事です。 学生時代に作った数あるクソアプリを披露しようとしたんですが、メディアがZipで読み取る環境 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/kuso_adv/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>jQueryのdeferredで処理をthenで直列に繋げた時にうまく待機してくれなかった話</title>
+		<link>/blog/jquery_deferred_then/</link>
+		<comments>/blog/jquery_deferred_then/#respond</comments>
+		<pubDate>Mon, 24 Aug 2015 16:19:55 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2833</guid>
+		<description><![CDATA[久々にJavaScriptのソースとにらめっこする機会があった。 そこで気になったのが非同期処理の連結方法。 [crayon-590a8ff377d3e016059194/] こんな感じで非同期処理が書かれていた。 非同 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/jquery_deferred_then/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>メモ】jQueryのclick関数がsafariだけでエラー。TypeError: &#8216;undefined&#8217; is not a function (evaluating xxxx.click()と出る</title>
+		<link>/blog/jquery_click_function_safari_error/</link>
+		<comments>/blog/jquery_click_function_safari_error/#respond</comments>
+		<pubDate>Wed, 12 Mar 2014 06:07:36 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2156</guid>
+		<description><![CDATA[Lionのsafari（5.1.7）でjQueryのclick()関数を実行したらTypeError: &#8216;undefined&#8217; is not a function (evaluating xxxx [&#8230;]]]></description>
+		<wfw:commentRss>/blog/jquery_click_function_safari_error/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>jQuery checkboxのチェックを変更する</title>
+		<link>/blog/jquery_checkbox/</link>
+		<comments>/blog/jquery_checkbox/#respond</comments>
+		<pubDate>Tue, 10 Sep 2013 02:14:14 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1740</guid>
+		<description><![CDATA[よく忘れるのでメモ。 jQueryが1.6以降はpropを使用する！ 1回だけ動いて2回目から動かなかったりしたらこの辺りを疑う。 [crayon-590a8ff378496664592562/] 参考サイト jQUer [&#8230;]]]></description>
+		<wfw:commentRss>/blog/jquery_checkbox/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>IEのみでJavaScriptエラー「標識子、文字列または数がありません。」</title>
+		<link>/blog/js_ie_error/</link>
+		<comments>/blog/js_ie_error/#respond</comments>
+		<pubDate>Tue, 31 Jan 2012 07:49:45 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=291</guid>
+		<description><![CDATA[IEだけで警告が出る箇所があって何かなぁ？と思っていたらカンマだった。 連想配列で最後にカンマがあると他のブラウザだとエラーを吐かずにIEだと吐くらしい。 [crayon-590a8ff3787d8541346579/] [&#8230;]]]></description>
+		<wfw:commentRss>/blog/js_ie_error/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JavaScriptで子要素追加をIE6でも動くようにするには</title>
+		<link>/blog/js_append_child_for_ie6/</link>
+		<comments>/blog/js_append_child_for_ie6/#respond</comments>
+		<pubDate>Tue, 25 Oct 2011 07:28:12 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=119</guid>
+		<description><![CDATA[jQueryでappendやprependを使って要素を使っていたらIE6で思ったように動かなかった。 検索してみると似たような人を見つけた。 http://d.hatena.ne.jp/nitoyon/20090219 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/js_append_child_for_ie6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>IE8で「オブジェクトでサポートされていないプロパティまたはメソッドです」と表示される</title>
+		<link>/blog/ie8_err_nothing_prop_method/</link>
+		<comments>/blog/ie8_err_nothing_prop_method/#respond</comments>
+		<pubDate>Mon, 17 Oct 2011 08:44:02 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=111</guid>
+		<description><![CDATA[仕事中、既存システムで変な症状が報告された。 [crayon-590a8ff378e38721034838/] ひねりも何もない代入だけの行でエラーが発生している。 調べてみるとタグのIDと変数名がぶつかっていると発生す [&#8230;]]]></description>
+		<wfw:commentRss>/blog/ie8_err_nothing_prop_method/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JSON形式のチェック方法</title>
+		<link>/blog/json_check_webservice/</link>
+		<comments>/blog/json_check_webservice/#respond</comments>
+		<pubDate>Fri, 09 Sep 2011 15:16:10 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=58</guid>
+		<description><![CDATA[JSON形式でデータを返却するWeb APIでデータを確認するのに既にある素晴しいツールを使わない手はないということで以下を使用。 JSON View（ブラウザ アドオン） FireFox https://addons./ [&#8230;]]]></description>
+		<wfw:commentRss>/blog/json_check_webservice/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

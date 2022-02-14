@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vagrant &#8211; memocon</title>
+	<atom:link href="/blog/category/vagrant/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>Vagrantのboxをバージョンを指定して他のPCに取り込む手順</title>
+		<link>/blog/vagrant_box_metadata/</link>
+		<comments>/blog/vagrant_box_metadata/#respond</comments>
+		<pubDate>Sun, 27 Mar 2016 13:45:55 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[vagrant]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2918</guid>
+		<description><![CDATA[これ叩くと大体8時間待たされる。 [crayon-590a90909b01b226880469/] ので他のPCにインポートしたboxを移植したい時の手順。 1. add済みの移行元PCでboxエクスポート [crayo [&#8230;]]]></description>
+		<wfw:commentRss>/blog/vagrant_box_metadata/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows10でVagrant+VirtualBoxを使用する話</title>
+		<link>/blog/vagrant_virtual_box_win10/</link>
+		<comments>/blog/vagrant_virtual_box_win10/#respond</comments>
+		<pubDate>Tue, 25 Aug 2015 15:16:23 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[vagrant]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2843</guid>
+		<description><![CDATA[Windows10にアップデートしてからvagrant upしてみたら落ちた。 Virtual Box 4.3.30 Vagrant 1.7.2 ホストオンリーアダプタを作成しようとしてエラーが出て落ちる。 [crayo [&#8230;]]]></description>
+		<wfw:commentRss>/blog/vagrant_virtual_box_win10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>とあるWebE2Eテストの環境構築:IT業界LT小規模発表勉強大会</title>
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	<style>
+	.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+		text-transform: none !important;
+	}
+	.reveal img {
+		border: none !important;
+	}
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="contents.md"
+				data-separator="^\r\n\r\n"
+				data-separator-vertical="^vertical-separator"
+				data-separator-notes="^Note:"
+				data-charset="UTF-8">
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/js/head.min.js"></script>
+	<script type="text/javascript" src="js/reveal.js"></script>
+	<script type="text/javascript">
+		Reveal.initialize({
+			controls: false,
+			progress: true,
+			history: true,
+			center: false,
+			autoCenter: false,
+
+			transition: 'none', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+	</script>
+</body>
+</html>

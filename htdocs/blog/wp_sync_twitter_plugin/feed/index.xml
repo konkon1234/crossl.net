@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>WP to Twitterで連携 へのコメント</title>
+	<atom:link href="/blog/wp_sync_twitter_plugin/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/wp_sync_twitter_plugin/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Sat, 11 Oct 2014 00:54:30 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>kon より</title>
+		<link>/blog/wp_sync_twitter_plugin/#comment-2</link>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2011 16:58:45 +0000</pubDate>
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=54#comment-2</guid>
+		<description><![CDATA[上手くいった！　寝よう。]]></description>
+		<content:encoded><![CDATA[<p>上手くいった！　寝よう。</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

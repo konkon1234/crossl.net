@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property='og:locale' content='ja_JP'>
+<meta property='og:site_name' content='memocon'>
+    <meta property="og:title" content="第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた">
+<meta property="og:description" content="最近、勉強会の報告しかしてない気がする…と毎回書いてるけど今回はSeleniumの勉強会。 第2回 日本Seleniumユーザーコミュニティ勉強会 Seleniumは前の会社でテストとしてじゃなくてマ">
+<meta property="og:url" content="/selenium_driver_session_201410/">
+<meta property="og:type" content="article">
+    <meta property="og:image" content="https://www.crossl.net/blog/wp-content/themes/memocon/images/header-logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@konkon1234">
+
+	<title>第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた  |  memocon</title>
+	<link rel="stylesheet" type="text/css" href="/blog/wp-content/themes/memocon/style.css" media="all" />
+	<link rel="stylesheet" href="/blog/wp-content/themes/memocon/assets/rin/css/bootstrap.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/blog/wp-content/themes/memocon/assets/icomoon/style.css" type="text/css" media="all" />
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="/blog/wp-content/themes/memocon/assets/rin/js/bootstrap.min.js"></script>
+	<script src="/blog/wp-content/themes/memocon/js/site.js"></script>
+	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="memocon &raquo; 第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた のコメントのフィード" href="/blog/selenium_driver_session_201410/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='/blog/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-github-css'  href='/blog/wp-content/plugins/crayon-syntax-highlighter/themes/github/github.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-consolas-css'  href='/blog/wp-content/plugins/crayon-syntax-highlighter/fonts/consolas.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='/blog/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.lightbox.min.css-css'  href='/blog/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css?ver=1.4.6' type='text/css' media='all' />
+<script type='text/javascript' src='/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/blog/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<link rel='https://api.w.org/' href='/blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='phpカンファレンス2014に参加してきた' href='/blog/phpcon2014/' />
+<link rel='next' title='CentOS6でelasticsearch + kibana3 + fluentdの環境作成手順' href='/blog/kibana3/' />
+<meta name="generator" content="WordPress 4.7.3" />
+<link rel="canonical" href="/blog/selenium_driver_session_201410/" />
+<link rel='shortlink' href='/blog/?p=2352' />
+<link rel="alternate" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fselenium_driver_session_201410%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fselenium_driver_session_201410%2F&#038;format=xml" />
+</head>
+<body>
+				<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-21309951-2', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	
+		<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+	<header>
+		<div class="container">
+			<h1 class="main-title">
+				<a href="/blog/">
+					<img src="/blog/wp-content/themes/memocon/images/header-logo.png" width="" height="" alt="memocon" class="main-logo" />
+				</a>
+				<div class="main-sub-title">
+					memocon					<span>プログラミングのメモや物欲日記、雑記等</span>
+				</div>
+			</h1>
+		</div>
+	</header>
+
+	    <div class="container">
+        <div class="main">
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="content">
+<article class="post">
+    <a href="/blog/selenium_driver_session_201410/" class="link-post-title"><h2 class="article-title">第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた</h2></a>
+    <p class="post-time">
+        <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2014年10月18日 21時50分    </p>
+
+    <p>最近、勉強会の報告しかしてない気がする…と毎回書いてるけど今回はSeleniumの勉強会。</p>
+<p><a href="http://seleniumjp.connpass.com/event/9222/">第2回 日本Seleniumユーザーコミュニティ勉強会</a></p>
+<p>Seleniumは前の会社でテストとしてじゃなくてマスタ登録をExcelでやりたいというのを実現するために使ったことしかなかったです。<br />
+JavaでPOIとSelenium WebDriver使って書いたけどあれは使われているのだろうか？<br />
+とりあえずブラウザが自動で動く様は初見のウケが非常に良かったです。</p>
+<p>ということで、あまりSeleniumの知識持ってなかったので得られるものは多いはずと思い参加してきました。</p>
+<p>&#8212; ひとこと感想 &#8212;</p>
+<dl>
+<dt>
+Seleniumをもっと知るための本の話
+</dt>
+<dd>
+Symfony2を仕事で触ってるんですがやっぱり英語の資料読まないと情報が少ないなぁと思ってた所に英語の技術書を読みましょうという話があった時にはビクッとしました。英語、頑張ります。
+</dd>
+<dt>
+脱・独自改造！GebでWebDriverをもっとシンプルに
+</dt>
+<dd>
+Geb、超楽しそう。<br />
+Groovyと合わせてやる良い機会。
+</dd>
+<dt>
+海外のSeleniumカンファレンスではどんな発表がされているのか2014
+</dt>
+<dd>
+海外ではSeleniumでカンファレンスが開かれてる。<br />
+なんか日本との熱量の違いを感じるし楽しそう。
+</dd>
+<dt>
+ハイパフォーマンスSeleniumテスト
+</dt>
+<dd>
+Q&amp;Aでの「チームにテストの文化を根付かせるには」という質問と内容が秀逸だった。<br />
+「テストを徹底させる為にどんな強権を発動したのか？」という質問に対して「一度（テストが）メンテ不能な状態になった。そこから本の勉強会などでテストの大切さを学んで浸透していった」。<br />
+やっぱり強制される（させる）やり方では難しく、チーム全体が自らやるという体制にならないといけない。</p>
+<p><iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&#038;bc1=000000&#038;IS2=1&#038;bg1=FFFFFF&#038;fc1=000000&#038;lc1=0000FF&#038;t=konnya-22&#038;o=9&#038;p=8&#038;l=as4&#038;m=amazon&#038;f=ifr&#038;ref=ss_til&#038;asins=4798119970" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe><br />
+実践アジャイルテスト テスターとアジャイルチームのための実践ガイド </p>
+</dd>
+<dt>
+クックパッドアプリの開発を支援するAppiumの話
+</dt>
+<dd>
+ネイティブアプリのテスト自動化、できることを初めて知った。
+</dd>
+</dl>
+<p>以下、まとめ。<br />
+後半になっていくほど内容が薄いのは自分の集中力の限界。</p>
+<p><span id="more-2352"></span></p>
+<h2 class="title_bar">Seleniumをもっと知るための本の話 by 玉川竜司さん</h2>
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/40423615" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/dragan10/selenium-40423615" title="Seleniumをもっと知るための本の話" target="_blank">Seleniumをもっと知るための本の話</a> </strong> from <strong><a href="//www.slideshare.net/dragan10" target="_blank">玉川 竜司</a></strong> </div>
+<p>玉川竜司さん、オライリーさんの本を20冊以上翻訳している方。</p>
+<h3 >今日の内容</h3>
+<ul>
+<li>本ができるまで</li>
+<li>英語の技術書を読む話</li>
+<li>Seleniumの本の紹介</li>
+</ul>
+<h3 >本ができるまで</h3>
+<p>玉川さんは2006年から自社のWebアプリの回帰テストに使用開始。 <br />
+その時にネットを漁ってみた時、情報が錯綜していて全体像が見えなかった。</p>
+<p>それから数年が経ち、原書「Selenium WebDriver Practical Guide」と出会う。 <br />
+原書はWebDriverの話のみだが、日本語版は玉川紘子さんに寄稿してもらってテストの分野もフォローしている。</p>
+<h3 >英語の技術書を読む話</h3>
+<ul>
+<li>英語の本と日本語の本、出版数は比較にならない</li>
+<li>これからも日本語の方は減る方向に加速する</li>
+<li>翻訳するのは、数が出るものを中心にせざるを得ない</li>
+<li>尖ったトピック、非常に深いものは英語で読む</li>
+<li>総合的な本を翻訳で読んで、あとは英語に当たってもらえれば…</li>
+</ul>
+<p>英語にチャレンジしたい技術者に時々ある勘違い</p>
+<p><strong>「映画のDVDで勉強」</strong></p>
+<p>英語の技術書を読むのは、英語へのチャレンジとしてはもっとも楽なチャレンジ。</p>
+<p>オススメは「Kindle」と「Safari（not web browser）」</p>
+<h4 >Kindle</h4>
+<ul>
+<li>FireHDX 8.9最高</li>
+<li>AndroidのKindleもいい（iOSは使ったことがないので未コメント）</li>
+<li>技術書を読む上では画面の大きさは大事。７インチは小さい</li>
+<li>単語を長押しで辞書引けるのが非常に便利</li>
+</ul>
+<h4 >Safari</h4>
+<ul>
+<li>オライリーの電子書籍読書サービス</li>
+<li>Proは年間4万。Basicは年間3万</li>
+<li>メジャーどころの技術系出版社はほぼカバー</li>
+<li>Android / iOSのアプリあり</li>
+</ul>
+<h3 >本の紹介（洋書）</h3>
+<h4 >Selenium Design Patterns and Best Practices</h4>
+<ul>
+<li>PACKT（出版社）はイギリスの出版社で、勢いがある</li>
+<li>初級〜中に強い印象</li>
+<li>Seleniumにはとても熱心</li>
+<li>Safariで読める</li>
+</ul>
+<h4 >Selenium Webdriver in Python</h4>
+<ul>
+<li>Kindleで読める</li>
+<li>「実践」のWebDriverそのものに関する部分のPython版といった印象</li>
+<li>Pythonでのサンプルコードをたくさん見たい人にお勧め</li>
+<li>表紙は大事</li>
+</ul>
+<h4 >Selenium IDE Automation Testing Tutorial</h4>
+<ul>
+<li>Kindleで読める</li>
+<li>Selenium IDEにフォーカス</li>
+<li>まさにチュートリアルで初歩的</li>
+</ul>
+<h4 >Selenium Questions and Answers</h4>
+<ul>
+<li>Kindleで読める</li>
+<li>StackOverflowのSelenium Q&amp;Aをそのまま書籍化</li>
+<li>大まかにカテゴリはあるが、ランダムなトピックの羅列に近い</li>
+<li>見てみると面白い</li>
+</ul>
+<h3 >Q&amp;A</h3>
+<dl>
+<dt>
+電子書籍版は出るのか？
+</dt>
+<dd>
+わからない
+</dd>
+<dt>
+次の企画が通りそうな売上数はどのくらいですか？
+</dt>
+<dd>
+うん千冊。アマゾンの技術書部門のランキング１０００〜２０００だったがこれはかなりイイ線
+</dd>
+<dt>
+どうしてオライリーの翻訳し始めたのか
+</dt>
+<dd>
+Silverlightの翻訳本でますか？と問い合わせたのが始め
+</dd>
+<dt>
+翻訳業をしてみたい
+</dt>
+<dd>
+知識や講演等は得られるかもしれないが、作業は地味かつお金は儲からないのであまりお勧めできない
+</dd>
+<dt>
+翻訳期間はどのくらい
+</dt>
+<dd>
+１日平均４〜５ページ。年間３〜４冊
+</dd>
+<dt>
+英語本を翻訳してWebで得られない知識はあったか
+</dt>
+<dd>
+Webの情報は体系化されていない。一本、体系化された本を読んでからネットを調べるとかなり楽になるはず
+</dd>
+</dl>
+<h2  class="title_bar" >脱・独自改造！GebでWebDriverをもっとシンプルに by 玉川紘子さん</h2>
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/40423299" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/hirokotamagawa/20141018-2selenium-40423299" title="20141018 第2回selenium勉強会" target="_blank">20141018 第2回selenium勉強会</a> </strong> from <strong><a href="//www.slideshare.net/hirokotamagawa" target="_blank">Hiroko Tamagawa</a></strong> </div>
+<p>WebDriver、そのままだと冗長なのでみんなラッパーを作ってる。 <br />
+なら、OSSのラッパーを使おう。</p>
+<ul>
+<li>FluentLenium(Java)</li>
+<li>Geb(Groovy)</li>
+</ul>
+<p>テスト対象製品に依存しないような改良は、独自に行うのではなく既存ライブラリを使おう</p>
+<h3 >Gebとは</h3>
+<ul>
+<li>not ゲブ、ジェブ</li>
+<li><a href="http://www.gebish.org/">http://www.gebish.org/</a></li>
+<li>Groovyで動くWebDriverのラッパー</li>
+<li>jQueryライクでわかりやすい</li>
+<li>コード量が少なくすっきり書ける</li>
+</ul>
+<h4 >独自ラッパーあるあるが解決済み</h4>
+<h5 >テキスト入力のシンプル化</h5>
+<p>$(“#hoge”).value(“fuga”)</p>
+<h5 >設定ファイルの外出し</h5>
+<p>GebConfig.groovyをクラスパスの直下に置く</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-590a8fe68b537656320312" class="crayon-syntax crayon-theme-github crayon-font-consolas crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" font-size: 14px !important; line-height: 18px !important;">
+		
+			<div class="crayon-plain-wrap"></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 18px !important;"><div class="crayon-num" data-line="crayon-590a8fe68b537656320312-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-590a8fe68b537656320312-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 18px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-590a8fe68b537656320312-1"><span class="crayon-c">// baseUrl</span></div><div class="crayon-line crayon-striped-line" id="crayon-590a8fe68b537656320312-2"><span class="crayon-v">baseUrl</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">"http://localhost:8000/example/"</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0004 seconds] -->
+<p></p>
+<h5 >PageObjectデザインパターンをサポート</h5>
+<p>ページのデザインオブジェクトとテストケースを分けるというデザインパターン。</p>
+<p>自由度が高いがパターンを使用して共通化できる</p>
+<h5 >Groovy/Spockの機能が使える</h5>
+<ul>
+<li>ブロックを使ってテストのフェーズを表現できる</li>
+<li>データ駆動テストがシンプルに書ける</li>
+<li>モジュールが使える（ヘッダメニュとかカートなど共通部分を表現するのに便利）</li>
+<li>Javaの資産が使える</li>
+</ul>
+<h4 >Syntaxの省略に注意</h4>
+<ul>
+<li>省略しすぎるとミスを招く</li>
+<li>IDE上での補完に頼りたければ、多少長くなっても型を明記</li>
+<li>Implicit Assertionの使い方に注意。ifでくくるとエラーになる。どうせなら全部にassert入れる</li>
+</ul>
+<h5 >PageObjectの作り方に注意</h5>
+<p>getter/setterを作らなくても動かせるので、ついつい生処理を書いてしまいがち</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-590a8fe68b554638691447" class="crayon-syntax crayon-theme-github crayon-font-consolas crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" font-size: 14px !important; line-height: 18px !important;">
+		
+			<div class="crayon-plain-wrap"></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 18px !important;"><div class="crayon-num" data-line="crayon-590a8fe68b554638691447-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-590a8fe68b554638691447-2">2</div><div class="crayon-num" data-line="crayon-590a8fe68b554638691447-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-590a8fe68b554638691447-4">4</div><div class="crayon-num" data-line="crayon-590a8fe68b554638691447-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-590a8fe68b554638691447-6">6</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 18px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-590a8fe68b554638691447-1"><span class="crayon-m">static</span><span class="crayon-h"> </span><span class="crayon-v">content</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-590a8fe68b554638691447-2"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">textLoginId</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">"loginId"</span></div><div class="crayon-line" id="crayon-590a8fe68b554638691447-3"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">textPasswrod</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">"password"</span></div><div class="crayon-line crayon-striped-line" id="crayon-590a8fe68b554638691447-4"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-sy">.</span></div><div class="crayon-line" id="crayon-590a8fe68b554638691447-5"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">button</span><span class="crayon-sy">.</span><span class="crayon-e">click</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-590a8fe68b554638691447-6"><span class="crayon-sy">}</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0011 seconds] -->
+<p></p>
+<p>ちゃんと隠蔽する</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-590a8fe68b57e084830974" class="crayon-syntax crayon-theme-github crayon-font-consolas crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" font-size: 14px !important; line-height: 18px !important;">
+		
+			<div class="crayon-plain-wrap"></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 18px !important;"><div class="crayon-num" data-line="crayon-590a8fe68b57e084830974-1">1</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 18px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-590a8fe68b57e084830974-1"><span class="crayon-v">page</span><span class="crayon-sy">.</span><span class="crayon-e">login</span><span class="crayon-sy">(</span><span class="crayon-s">"loginId"</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">"password"</span><span class="crayon-sy">)</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0004 seconds] -->
+<p></p>
+<h3 >Q&amp;A</h3>
+<dl>
+<dt>どのように勉強すればよいか？</dt>
+<dd>Gebの公式サイトにBook of Gebがあって体型的になっているのでお勧め。 <br />
+Groovyは都度調べてる</dd>
+</dl>
+<h2  class="title_bar">海外のSeleniumカンファレンスではどんな発表がされているのか2014 by 伊藤望さん</h2>
+<h3 >Selenium Conference</h3>
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/40430605" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NozomiIto/selenium2014" title="海外のSeleniumカンファレンスではどんな発表がされているのか2014" target="_blank">海外のSeleniumカンファレンスではどんな発表がされているのか2014</a> </strong> from <strong><a href="//www.slideshare.net/NozomiIto" target="_blank">Nozomi Ito</a></strong> </div>
+<ul>
+<li>2011円から毎年開催</li>
+<li>世界中からSelenium開発者・ユーザーが集まる</li>
+<li>3日間にわたるセッション&amp;ワークショップ</li>
+</ul>
+<h3 >セッションの紹介から抜粋</h3>
+<ul>
+<li>画面テスト少なめに、単体テストに可能な限りする</li>
+<li>自動化テストでセキュリティテストもやるべきか</li>
+<li>AllureフレームワークでSeleniumの結果レポートを出力する</li>
+</ul>
+<h2 class="title_bar">ハイパフォーマンスSeleniumテスト＠サイボウズ by 宮田淳平さん</h2>
+<p>ベストプラクティスというよりは実運用での実体験の話</p>
+<h3 >パフォーマンスの定義</h3>
+<ul>
+<li>実行時間</li>
+<li>安定性</li>
+<li>メンテナンス性</li>
+</ul>
+<p>※ Jenkins + Pipeline Pluginでビルドパイプラインを視覚化</p>
+<h3 >実行時間の短縮</h3>
+<ul>
+<li>余計なテストを作らない</li>
+<li>
+<ul>
+<li>メインシナリオのテストが無難。単体テスト、APIテストなどでカバーする</li>
+</ul>
+</li>
+<li>並列化</li>
+</ul>
+<h4 >並列化</h4>
+<ul>
+<li>1マシンで起動できるブラウザは１つまで</li>
+<li>
+<ul>
+<li>複数起動もできるけど、フォーカス関係でテストが不安定になるのでオススメしない</li>
+</ul>
+</li>
+<li>複数のバージョンに対応するにはさらにマシンリソースが必要になる</li>
+</ul>
+<h5 >並列実行環境の構築</h5>
+<h6 >クラウドサービス</h6>
+<ul>
+<li>Sauce Labs, TestingBot, BrowserStack</li>
+<li>あらゆる環境 + 録画機能など</li>
+<li>予算があるなら一番おすすめ</li>
+</ul>
+<h6 >VM</h6>
+<ul>
+<li>VMテンプレートを作って量産</li>
+<li>そこそこリソース必要＆なかなかメンテナンス大変</li>
+</ul>
+<h6 >docker</h6>
+<ul>
+<li>高速デプロイ＆軽量</li>
+<li>ただし環境は限られる</li>
+<li>時期Windows Serverはdocker対応するらしいので期待</li>
+</ul>
+<h5 >テストの実行順序</h5>
+<ul>
+<li>長いテストが最後に実行されると全体のテスト実行時間が長くなる</li>
+</ul>
+<h5 >個々のテストの高速化</h5>
+<ul>
+<li>基本的に並列化の力を入れる方が効果が大きい</li>
+<li>極端に長いテストは改善した方がよい</li>
+<li>
+<ul>
+<li>実行時間の長いテストは普段からわかるようにする</li>
+</ul>
+</li>
+<li>共通処理で時間がかかっているところは改善の価値あり（初期データの作成など</li>
+</ul>
+<h3 >安定性</h3>
+<ul>
+<li>リトライ</li>
+<li>
+<ul>
+<li>不安定なテストが救われる</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>リトライしたテストはわかるようにして後で直す</li>
+</ul>
+</li>
+<li>明示的なWait</li>
+<li>
+<ul>
+<li>findElementなどは不安定に失敗することがあるので条件付きWaitを使う</li>
+</ul>
+</li>
+</ul>
+<h3 >メンテナンス性</h3>
+<ul>
+<li>PageObjectパターン</li>
+<li>失敗時のスクリーンショット、録画</li>
+<li>テストコードの品質は製品と同じくらい大事</li>
+<li>
+<ul>
+<li>命名規則作ったりレビューしたり</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>DRY原則とかKISS原則とかYAGNIとか</li>
+</ul>
+</li>
+</ul>
+<p>事例が少ないのでもっと共有されると嬉しい</p>
+<h3 >Q&amp;A</h3>
+<dl>
+<dt>なかなかここまでチームでテストを浸透させるのは難しいはず。どうやってテストを書かせたか</dt>
+<dd>１回テストがメンテ不能に陥った。 <br />
+継続的デリバリー（実践アジャイルテスト）という本の勉強会で大切さを共有。 <br />
+受け入れテストを書き終わって実装完了を徹底。</dd>
+<dt>動画はどうやって撮ってる？</dt>
+<dd>Seleniumとは別のpythonのライブラリを使用して実現している</dd>
+</dl>
+<h2 class="title_bar" >クックパッドアプリの開発を支援するAppiumの話 by 松尾和昭さん(@Kazu_cocoa)</h2>
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/40428499" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/KazuMatsu/20141018-selenium-appiumcookpad" title="20141018 selenium appium_cookpad" target="_blank">20141018 selenium appium_cookpad</a> </strong> from <strong><a href="//www.slideshare.net/KazuMatsu" target="_blank">Kazuaki MATSUO</a></strong> </div>
+<p>海外では回線が遅いのでアプリが主流。</p>
+<p><strong>リリースビルドをテストする</strong></p>
+<p>iOS <br />
+UIAutomation</p>
+<h3 >cookpadでの使用ツール群</h3>
+<p>Ruby + RSpec + Turnip <br />
+ImageMagick or perceptualdiff <br />
+Selenium Grid</p>
+<h3 >Appiumのよいこと</h3>
+<ul>
+<li>リリースビルドをテスト可能</li>
+<li>多彩なツールの組み合わせ</li>
+<li>
+<ul>
+<li>Appiumは</li>
+</ul>
+</li>
+</ul>
+<h3 >Appiumのよくはないところ</h3>
+<ul>
+<li>実績がない</li>
+<li>実行に時間がかかる</li>
+<li>誰もがAppiumを使える環境の構築が手間</li>
+<li>
+<ul>
+<li>社内に広げるきっかけが妨げられる</li>
+</ul>
+</li>
+</ul>
+<h3 >iOSクックパッドアプリ実践</h3>
+<ul>
+<li>ネイティブアプリ</li>
+<li>UIの修正が頻繁</li>
+<li>約２週間毎にApple Storeにコミット</li>
+</ul>
+
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3371998635336943"
+             data-ad-slot="7888842328"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    
+            <div class="sns-wrapper">
+            <div class="fb-like-wrapper">
+                <div class="fb-like" data-href="http://www.crossl.net/blog/selenium_driver_session_201410/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.crossl.net/blog/selenium_driver_session_201410/" data-via="konkon1234" data-size="large">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+            <div class="hatebu-wrapper">
+                <a href="http://b.hatena.ne.jp/entry/www.crossl.net/blog/selenium_driver_session_201410/" class="btn btn-hatebu" data-hatena-bookmark-title="第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加">B! はてブ&nbsp;&nbsp;<span class="badge hatebu-count" data-permalink="http://www.crossl.net/blog/selenium_driver_session_201410/">&nbsp;</span></a>
+            </div>
+        </div>
+    </article>
+
+<div>
+
+    <ul class="single-navigation-wrapper">
+        <li>前の記事：<a href="/blog/phpcon2014/" rel="prev">phpカンファレンス2014に参加してきた</a></li>        <li>次の記事：<a href="/blog/kibana3/" rel="next">CentOS6でelasticsearch + kibana3 + fluentdの環境作成手順</a></li>    </ul>
+</div>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm">
+                    <aside>
+                        <div id="sidebar">
+	<div class="col-xs-12 col-sm-6 col-md-12">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- blog用（ウェジットレスポンシブ） -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3371998635336943"
+     data-ad-slot="9365575520"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div><div class="col-xs-12 col-sm-6 col-md-12"><h2 class="widget_title">検索</h2><div class="search-wrapper">
+<form method="get" id="searchform" action="/blog/" >
+<div class="input-group">
+<input type="text" value="" name="s" id="s" class="form-control" />
+<span class="input-group-btn">
+<input type="submit" id="searchsubmit" value="検索" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div></div><div class="col-xs-12 col-sm-6 col-md-12"><h2 class="widget_title">カレンダー</h2><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>2017年5月</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="日曜日">日</th>
+		<th scope="col" title="月曜日">月</th>
+		<th scope="col" title="火曜日">火</th>
+		<th scope="col" title="水曜日">水</th>
+		<th scope="col" title="木曜日">木</th>
+		<th scope="col" title="金曜日">金</th>
+		<th scope="col" title="土曜日">土</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="/blog/2017/03/">&laquo; 3月</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td id="today">4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div class="col-xs-12 col-sm-6 col-md-12"><h2 class="widget_title">人気記事</h2><ul>
+<li><a href="/blog/windows7_icon_temp/"  title="Windows7のプログラムアイコンの表示がおかしい">Windows7のプログラムアイコンの表示がおかしい 95,818</a></li><li><a href="/blog/ie8_err_nothing_prop_method/"  title="IE8で「オブジェクトでサポートされていないプロパティまたはメソッドです」と表示される">IE8で「オブジェクトでサポートされていないプロパティまたはメソッドです」と表示される 58,931</a></li><li><a href="/blog/fuelphp-advcal121221/"  title="FuelPHPで１サイトを作ってみて気が付いた点など">FuelPHPで１サイトを作ってみて気が付いた点など 30,985</a></li><li><a href="/blog/excel_addon_active/"  title="ExcelのPowerPivot（アドオン）が読み込まなくなって有効化出来ない時の対応">ExcelのPowerPivot（アドオン）が読み込まなくなって有効化出来ない時の対応 25,126</a></li><li><a href="/blog/json_check_webservice/"  title="JSON形式のチェック方法">JSON形式のチェック方法 18,051</a></li></ul>
+</div><div class="col-xs-12 col-sm-6 col-md-12"><h2 class="widget_title">カテゴリー</h2>		<ul>
+	<li class="cat-item cat-item-4"><a href="/blog/category/net/" >.NET</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="/blog/category/ansible/" >ansible</a> (1)
+</li>
+	<li class="cat-item cat-item-21"><a href="/blog/category/dtm/" >DTM</a> (2)
+</li>
+	<li class="cat-item cat-item-24"><a href="/blog/category/excel/" >Excel</a> (2)
+</li>
+	<li class="cat-item cat-item-11"><a href="/blog/category/facebook/" >facebook</a> (5)
+</li>
+	<li class="cat-item cat-item-32"><a href="/blog/category/git/" >git</a> (1)
+</li>
+	<li class="cat-item cat-item-34"><a href="/blog/category/intellij/" >IntelliJ</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="/blog/category/ios/" >iOS</a> (2)
+</li>
+	<li class="cat-item cat-item-7"><a href="/blog/category/java-script/" >Java Script</a> (10)
+<ul class='children'>
+	<li class="cat-item cat-item-28"><a href="/blog/category/java-script/jquery/" >jQuery</a> (2)
+</li>
+	<li class="cat-item cat-item-37"><a href="/blog/category/java-script/react/" >React</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-13"><a href="/blog/category/linux/" >linux</a> (8)
+</li>
+	<li class="cat-item cat-item-14"><a href="/blog/category/mac/" >mac</a> (3)
+</li>
+	<li class="cat-item cat-item-9"><a href="/blog/category/mysql/" >MySQL</a> (6)
+</li>
+	<li class="cat-item cat-item-12"><a href="/blog/category/php/" >php</a> (26)
+<ul class='children'>
+	<li class="cat-item cat-item-20"><a href="/blog/category/php/fuelphp/" >fuelPHP</a> (7)
+</li>
+	<li class="cat-item cat-item-27"><a href="/blog/category/php/laravel/" >Laravel</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-23"><a href="/blog/category/ruby/" >ruby</a> (1)
+</li>
+	<li class="cat-item cat-item-30"><a href="/blog/category/selenium/" >Selenium</a> (2)
+</li>
+	<li class="cat-item cat-item-25"><a href="/blog/category/sql-server/" >Sql Server</a> (3)
+</li>
+	<li class="cat-item cat-item-10"><a href="/blog/category/subversion/" >subversion</a> (1)
+</li>
+	<li class="cat-item cat-item-36"><a href="/blog/category/vagrant/" >vagrant</a> (2)
+</li>
+	<li class="cat-item cat-item-16"><a href="/blog/category/windows/" >Windows</a> (2)
+</li>
+	<li class="cat-item cat-item-5"><a href="/blog/category/wordpress/" >wordpress</a> (6)
+</li>
+	<li class="cat-item cat-item-18"><a href="/blog/category/soccer/" >サッカー</a> (2)
+</li>
+	<li class="cat-item cat-item-15"><a href="/blog/category/skyptv/" >スカパー</a> (3)
+</li>
+	<li class="cat-item cat-item-3"><a href="/blog/category/tweet/" >つぶやき</a> (14)
+</li>
+	<li class="cat-item cat-item-31"><a href="/blog/category/%e3%83%87%e3%83%bc%e3%82%bf%e5%8f%af%e8%a6%96%e5%8c%96/" >データ可視化</a> (1)
+</li>
+	<li class="cat-item cat-item-33"><a href="/blog/category/%e5%8b%89%e5%bc%b7%e4%bc%9a/" >勉強会</a> (7)
+</li>
+	<li class="cat-item cat-item-22"><a href="/blog/category/%e6%97%a5%e8%a8%98/" >日記</a> (18)
+</li>
+	<li class="cat-item cat-item-17"><a href="/blog/category/unresolved/" >消化不良</a> (1)
+</li>
+	<li class="cat-item cat-item-38"><a href="/blog/category/%e8%aa%ad%e6%9b%b8/" >読書</a> (1)
+</li>
+	<li class="cat-item cat-item-6"><a href="/blog/category/shopping/" >買物</a> (7)
+</li>
+	<li class="cat-item cat-item-8"><a href="/blog/category/music/" >音楽</a> (3)
+</li>
+		</ul>
+</div>            <div class="col-xs-12 col-sm-6 col-md-12">            <h2 class="widget_title">最近の投稿</h2>            <ul class="list-recent-posts">
+                                    <li>
+                        <a href="/blog/remember-form-inputs/">フォーム入力内容を保存・復元するChrome拡張を作成しました</a>
+                                            </li>
+                                    <li>
+                        <a href="/blog/readed-moden-html5-css3/">【読了】HTML5/CSS3モダンコーディング</a>
+                                            </li>
+                                    <li>
+                        <a href="/blog/au2iijmio/">auからIIJmioにmnp転入した</a>
+                                            </li>
+                                    <li>
+                        <a href="/blog/freelance/">俺はフリーランスでなくフリーターエンジニアなのかもしれない</a>
+                                            </li>
+                                    <li>
+                        <a href="/blog/php-mail-parser/">phpでメールを受け取り処理をする</a>
+                                            </li>
+                            </ul>
+            </div>            <div class="col-xs-12 col-sm-6 col-md-12"><h2 class="widget_title">PR</h2>			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- blog用ウィジット下（レスポンシブ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3371998635336943"
+     data-ad-slot="7690365927"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="about-me">
+						<h3>about me</h3>
+
+						<div class="text-center">
+							<img src="https://secure.gravatar.com/avatar/2246a4de2539a887156d9de9392b2ad9.jpg" class="profile-img" alt="konの愛犬 タロウ" />
+							<p class="profile-name">
+								kon(Kouji Nomura)
+							</p>
+							<div class="profile-sns">
+								<a href="https://twitter.com/konkon1234" target="_blank" title="twitter @konkon1234"><span class="icon-twitter"></span></a>
+							</div>
+						</div>
+
+						<div class="profile-detail">
+							<p>
+								都内で働くエンジニア（現在フリーランス）。<br />
+								たまにDTMで作編曲。
+							</p>
+
+							<h4>活動分野</h4>
+							<ul class="my-field-list">
+								<li>PHP</li>
+								<li>RDB</li>
+								<li>Excel VBA</li>
+								<li>JavaScript</li>
+								<li>html</li>
+								<li>css</li>
+								<li>C#</li>
+								<li>VB.net</li>
+								<li>java</li>
+								<li>C++</li>
+								<li>C</li>
+							</ul>
+
+							<h4>個人サイト</h4>
+							<ul>
+								<li>
+									<a href="https://www.crossl.net/resumee/" title="resumee お手軽履歴書作成WebApp">resumee</a> / お手軽履歴書作成WebApp
+								</li>
+								<li>
+									<a href="http://www.crossl.net/reader/" title="crossl reader まとめサイトリーダー">crossl reader</a> / まとめサイトリーダー
+								</li>
+							</ul>
+
+							<h4>作曲実績</h4>
+							<ul>
+								<li>
+									<a href="http://www.amazon.co.jp/gp/product/B007WVZ3P2/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B007WVZ3P2&linkCode=as2&tag=konnya-22">ゆないてっど~遊女ワークスベスト（Tr:16 わがまま）</a><img src="http://www.assoc-amazon.jp/e/ir?t=konnya-22&l=as2&o=9&a=B007WVZ3P2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+								</li>
+								<li>
+									<a href="http://www.amazon.co.jp/gp/product/B001P5C9CG/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B001P5C9CG&linkCode=as2&tag=konnya-22">YuNa In other words（Tr:3 桜恋歌）</a><img src="http://www.assoc-amazon.jp/e/ir?t=konnya-22&l=as2&o=9&a=B001P5C9CG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<small class="copyright">
+				&copy; 2011 kon All Rights Reserved.
+			</small>
+
+		</div>
+	</footer>
+	<script type='text/javascript' src='/blog/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js?ver=1.4.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"showTitle":"1","showCaption":"1","showNumbers":"1","fitToScreen":"0","resizeSpeed":"400","showDownload":"0","navbarOnTop":"0","marginSize":"0","slideshowSpeed":"4000","prevLinkTitle":"\u524d\u306e\u753b\u50cf","nextLinkTitle":"\u6b21\u306e\u753b\u50cf","closeTitle":"\u30ae\u30e3\u30e9\u30ea\u30fc\u3092\u9589\u3058\u308b","image":"\u753b\u50cf ","of":"\u306e","download":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","pause":"(\u30b9\u30e9\u30a4\u30c9\u30b7\u30e7\u30fc\u3092\u505c\u6b62\u3059\u308b)","play":"(\u30b9\u30e9\u30a4\u30c9\u30b7\u30e7\u30fc\u3092\u518d\u751f\u3059\u308b)"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/blog/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js?ver=1.4.6'></script>
+<script type='text/javascript' src='/blog/wp-includes/js/wp-embed.min.js?ver=4.7.3'></script>
+	</body>
+</html>

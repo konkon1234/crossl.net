@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>消化不良 &#8211; memocon</title>
+	<atom:link href="/blog/category/unresolved/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>facebookのいいねの数やはてブ数、twitterのtweet数の取り方</title>
+		<link>/blog/get_fb_like_count/</link>
+		<comments>/blog/get_fb_like_count/#respond</comments>
+		<pubDate>Mon, 15 Apr 2013 10:45:41 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[消化不良]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1342</guid>
+		<description><![CDATA[ソーシャルなカウントをWordpressの管理画面内、投稿一覧ページに表示したいなぁと思った時に調べたのでまとめます。 一番簡単なのがはてブ数の取得 以下のurlを取得すればOK。 [crayon-590a91235e0 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/get_fb_like_count/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

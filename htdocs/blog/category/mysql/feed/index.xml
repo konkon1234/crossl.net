@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MySQL &#8211; memocon</title>
+	<atom:link href="/blog/category/mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>CentOS6でyumを使ってmysqlからMariaDBにした（なった）話</title>
+		<link>/blog/mysql_to_mariadb/</link>
+		<comments>/blog/mysql_to_mariadb/#respond</comments>
+		<pubDate>Sat, 14 Dec 2013 19:27:27 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2038</guid>
+		<description><![CDATA[yumのサードパーティ製リポジトリ(CentALT)を追加してうっかりyum update時のパッケージリストを流しで確認する程度に更新したらmysqlがMariaDBになった。 yumのログを確認してみるとmysqlが [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mysql_to_mariadb/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>mysql error：FUNCTION .FIELD does not existが特定環境だけ発生する</title>
+		<link>/blog/mysql_error_not_exist/</link>
+		<comments>/blog/mysql_error_not_exist/#respond</comments>
+		<pubDate>Sun, 13 Jan 2013 11:52:20 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1194</guid>
+		<description><![CDATA[とあるQueryがローカルでは問題なく動くのに本番環境だと動かないという症状に悩まされたのでメモ。 [crayon-590a902f290e6925096726/] これがローカルだと動くのだが本番だと以下ようなのエラー [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mysql_error_not_exist/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>mysqlで外部クライアントから接続ができない！？</title>
+		<link>/blog/mysql_grant_user/</link>
+		<comments>/blog/mysql_grant_user/#respond</comments>
+		<pubDate>Wed, 21 Mar 2012 11:12:38 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=418</guid>
+		<description><![CDATA[開発用MVのmysqlにローカルから接続できるが外部から接続できなくて悩んだのでメモ。 ターミナルからコマンド打てばすんなり接続できるのにWindows PCのWorkBentchからの接続は拒否される。 iptable [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mysql_grant_user/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>mysqlの起動に失敗（MySQL Daemon failed to start）</title>
+		<link>/blog/mysql_failed_start/</link>
+		<comments>/blog/mysql_failed_start/#respond</comments>
+		<pubDate>Tue, 06 Mar 2012 10:25:51 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=386</guid>
+		<description><![CDATA[mysqlの再起動を行ったら起動に失敗したのでメモ。 調べることとしてやっぱりログ。 ターミナル2つ立ち上げてtailでログ監視しつつmysql起動。 ターミナル1 [crayon-590a902f29918590776 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mysql_failed_start/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SQL ServerからMySQLへする時にQueryではまったこと</title>
+		<link>/blog/sql-server2mysql/</link>
+		<comments>/blog/sql-server2mysql/#respond</comments>
+		<pubDate>Thu, 26 Jan 2012 07:53:40 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=282</guid>
+		<description><![CDATA[SQL Server用に作成したQueryをMySQLで動かしたら動かない動かない&#8230; ということではまった点を記述。 １．SELECT INSERT 文 よく既にレコードが存在する場合はINSERTしないとい [&#8230;]]]></description>
+		<wfw:commentRss>/blog/sql-server2mysql/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CSEでMySQL（utf8）が文字化け。</title>
+		<link>/blog/cse_for_utf8/</link>
+		<comments>/blog/cse_for_utf8/#respond</comments>
+		<pubDate>Wed, 05 Oct 2011 04:31:29 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=104</guid>
+		<description><![CDATA[会社が変わって環境が大幅に変わっている。 今まではALL Microsoft製品で固められていてGUIが必ずある前提だったのでLAMP環境になって開発環境もフリーのものをがつがつ使っている。 しかし組み合わせが色々とある [&#8230;]]]></description>
+		<wfw:commentRss>/blog/cse_for_utf8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

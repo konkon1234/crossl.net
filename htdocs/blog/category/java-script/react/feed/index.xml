@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>React &#8211; memocon</title>
+	<atom:link href="/blog/category/java-script/react/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>React+Babel+WebpackでHello World</title>
+		<link>/blog/react_hello_world/</link>
+		<comments>/blog/react_hello_world/#respond</comments>
+		<pubDate>Mon, 11 Jan 2016 10:16:52 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Java Script]]></category>
+		<category><![CDATA[React]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2910</guid>
+		<description><![CDATA[流れが速すぎてWebの情報がすぐ古くなる界隈なので環境構築に手こずったのでメモ。 オフィシャル見るのが確実なんだろうけど&#8230; 1.必要パッケージをインストール [crayon-590a8ff85a9af9225 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/react_hello_world/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

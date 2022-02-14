@@ -1,0 +1,356 @@
+/*
+ * Theme Name: memocon
+ * Author: Kouji Nomura
+ * Author URI: https://crossl.net/
+ * Version: 0.1
+ *
+ */
+@charset "UTF-8";
+
+/** common */
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #223685;
+}
+
+a.btn {
+    color: #fff;
+}
+
+a.btn.btn-default {
+    color: #000;
+}
+
+
+/** header */
+
+.main-logo{
+    margin: 15px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-title {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.main-title .main-sub-title {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-title .main-sub-title:hover {
+    text-decoration: none !important;
+}
+
+.wpp-list {
+    padding-left: 0;
+}
+
+.wpp-list .post-stats {
+    display: inline;
+}
+
+
+body .navbar.navbar-default,
+body .navbar.navbar-inverse {
+    border-bottom: solid 1px #ccc;
+}
+
+body .navbar {
+    min-height: 50px;
+    height: 50px;
+}
+
+.navbar .navbar-brand {
+    padding: 10px 15px;
+    height: 50px;
+}
+
+/** widget */
+h2.widget_title {
+    font-size: 20px;
+    padding: 10px 0;
+    /*border-left: solid 5px #3b9ae0;*/
+    border-top: dotted 3px #3b9ae0;
+    border-bottom: dotted 3px #3b9ae0;
+}
+h2.widget_title:before {
+    content: "\002731";
+    color: #3b9ae0;
+}
+
+/** tag cloud */
+.tagcloud .label {
+    background-color: transparent;
+    /*color: #000;*/
+    font-weight: normal;
+}
+
+.tagcloud a.label:hover {
+    background-color: rgba(34, 54, 133, .8);
+}
+
+/** calendar */
+#wp-calendar {
+    width: 100%;
+}
+
+#wp-calendar thead {
+    background-color: #eee;
+}
+
+#wp-calendar thead tr th:last-child {
+    color: #e00;
+}
+
+#wp-calendar thead tr th:nth-last-of-type(2) {
+    color: #00e;
+}
+
+#wp-calendar thead th {
+    border: solid 1px #ccc;
+    text-align: center;
+}
+
+#wp-calendar tbody tr:not(:first-child) th,
+#wp-calendar tbody tr td {
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+#wp-calendar tbody tr td a {
+    display: block;
+    color: #fff;
+    background-color: #ff9800;
+}
+
+input#searchsubmit {
+    border: solid 1px #ccc;
+    box-shadow: none;
+}
+
+/** recent-posts */
+.list-recent-posts {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-recent-posts li:not(:first-child) {
+    padding-top: 5px;
+}
+
+
+/** loop */
+.more-link {
+}
+
+/** article */
+article.post {
+    overflow: hidden;
+    font-size: 18px;
+}
+
+article.post p {
+    margin-bottom: 30px;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+article.post dl dt:not(:first-child) {
+    margin-top: 18px;
+}
+
+article.post dl dd {
+    padding-left: 20px;
+}
+
+article.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.crayon-theme-vs2012 {
+    padding: 5px 0;
+    border-color: #ccc !important;
+}
+
+#content {
+    margin-bottom: 30px;
+}
+
+#content .post:not(:first-child) {
+    margin-top: 80px;
+}
+
+.link-post-title:hover,
+.link-post-title:active,
+.link-post-title:visited,
+.link-post-title:link {
+    text-decoration: none !important;
+
+}
+
+.post h2.article-title {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    /*background-color: #3b9ae0;*/
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 24px;
+}
+
+.post h2.article-title::before {
+    /*color: #3b9ae0;*/
+    color: #fff;
+    content: '\25C7\a0\a0';
+}
+
+.post .post-time {
+    text-align: right;
+    display: block;
+    font-size: 14px;
+    margin: 0;
+}
+
+.post .post-time .glyphicon {
+    font-size: 12px;
+}
+
+.post .aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.pagination-wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sns-wrapper {
+    margin: 10px 0;
+    line-height: 12px;
+    position: relative;
+}
+
+.fb-like-wrapper {
+    display: inline-block;
+}
+
+.sns-wrapper a.btn-hatebu {
+    position: absolute;
+    top: 0;
+    box-shadow: none;
+    color: #fff;
+    background-color: #00a3e8;
+    border: none;
+    height: 28px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.sns-wrapper .hatebu-wrapper {
+    display: inline-block;
+}
+
+.sns-wrapper a.btn-hatebu span.badge {
+    background-color: #fff;
+    color: #00a3e8;
+}
+
+.single-navigation-wrapper {
+    margin-top: 20px;
+}
+
+
+/** footer */
+#footer {
+    padding: 30px 0;
+
+}
+
+.about-me h3 {
+    padding: 5px 0;
+    border-bottom: dotted 3px #3b9ae0;
+}
+
+.about-me h4 {
+    clear: both;
+    font-size: 16px;
+
+    border-left: solid 3px #3b9ae0;
+    padding: 3px 6px;
+    margin-bottom: 4px;
+
+}
+
+.about-me h3:before {
+    content: "\002731";
+    color: #3b9ae0;
+}
+
+.profile-sns {
+    font-size: 30px;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-bottom: 0;
+}
+
+.profile-detail {
+    /*margin-top: 10px;*/
+}
+
+.my-field-list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-field-list li {
+    float: left;
+    padding-left: 5px;
+}
+
+.my-field-list li:not(:last-child):after {
+    content: "/";
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.profile-sns .icon-twitter {
+    color: #2ca7e0;
+}
+
+.profile-sns a:hover,
+.profile-sns a:visited,
+.profile-sns a:active,
+.profile-sns a:link {
+    text-decoration: none;
+}
+
+.copyright {
+    display: block;
+    text-align: right;
+}
+
+.title_bar {
+	border-left: solid 5px #ff9800;
+	padding-left: 5px;
+}
+
+h4.title_bar {
+	line-height: 30px;
+}

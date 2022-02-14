@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>facebook &#8211; memocon</title>
+	<atom:link href="/blog/category/facebook/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>facebookのいいねの数やはてブ数、twitterのtweet数の取り方</title>
+		<link>/blog/get_fb_like_count/</link>
+		<comments>/blog/get_fb_like_count/#respond</comments>
+		<pubDate>Mon, 15 Apr 2013 10:45:41 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[消化不良]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1342</guid>
+		<description><![CDATA[ソーシャルなカウントをWordpressの管理画面内、投稿一覧ページに表示したいなぁと思った時に調べたのでまとめます。 一番簡単なのがはてブ数の取得 以下のurlを取得すればOK。 [crayon-590a8fdbf29 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/get_fb_like_count/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PHP: バージョンアップできなくて使えない関数がある時の対応</title>
+		<link>/blog/php_upgradephp/</link>
+		<comments>/blog/php_upgradephp/#comments</comments>
+		<pubDate>Fri, 20 Apr 2012 07:03:44 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=469</guid>
+		<description><![CDATA[PHPがバージョンアップされて関数が増えたがサービスを停止するわけにもいかずPHPのバージョンアップができず使用できない。 こんな状況はないだろうか。 俺の場合は具体的にjson_decodeが使いたい。 でないとFac [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php_upgradephp/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>facebook：fan pageのウォールに投稿された画像を一覧表示する</title>
+		<link>/blog/facebook_wall_image/</link>
+		<comments>/blog/facebook_wall_image/#respond</comments>
+		<pubDate>Mon, 16 Apr 2012 02:07:15 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=448</guid>
+		<description><![CDATA[ファンページのウォールに投稿した画像を自分のサイトに表示したいという要望があった。 上記ぐらいだったらSDK使わずに直にGraph APIのURL叩く方式で問題なく実装できたのでそのメモ。 アルバム一覧取得のAPI UR [&#8230;]]]></description>
+		<wfw:commentRss>/blog/facebook_wall_image/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>facebookのShareボタンでog:descriptionが効かない</title>
+		<link>/blog/facebook_ogp/</link>
+		<comments>/blog/facebook_ogp/#comments</comments>
+		<pubDate>Tue, 28 Feb 2012 10:11:56 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=355</guid>
+		<description><![CDATA[会社のサイトでfacebookのShareボタンを設置してくれという依頼が来た。 そんなものfacebookサイトにあるタグをコピペして終了だろと思っていたらはまった。 コピペ元URL http://developers/ [&#8230;]]]></description>
+		<wfw:commentRss>/blog/facebook_ogp/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>facebookのsocial plugin LikeBoxで独自CSSを反映させる</title>
+		<link>/blog/facebook_likebox_custom_css/</link>
+		<comments>/blog/facebook_likebox_custom_css/#respond</comments>
+		<pubDate>Wed, 30 Nov 2011 07:26:52 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[facebook]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=180</guid>
+		<description><![CDATA[会社でfacebookのLikeBoxの幅を210pxに収めてくれという依頼が来た。 ※こんな感じのやつ facebookは知人が３人だけでアイコンもデフォルトのシルエット画像というほぼ素人の私に…… 登録した時の「もし [&#8230;]]]></description>
+		<wfw:commentRss>/blog/facebook_likebox_custom_css/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

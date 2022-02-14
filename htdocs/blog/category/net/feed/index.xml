@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>.NET &#8211; memocon</title>
+	<atom:link href="/blog/category/net/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>.NET MVC 本番環境にデプロイしたら403エラーになってしまう時</title>
+		<link>/blog/netmvc_deploy_403/</link>
+		<comments>/blog/netmvc_deploy_403/#respond</comments>
+		<pubDate>Tue, 10 Sep 2013 10:49:35 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1749</guid>
+		<description><![CDATA[ローカルだと動くんだけど本番環境にデプロイしたら403になってかなり悩んだ時のメモ。 結論からいうとここの情報で解決。 stack overflow 403 &#8211; Forbidden: Access is de [&#8230;]]]></description>
+		<wfw:commentRss>/blog/netmvc_deploy_403/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>デスクトップヒープが足らずにコントロール作成エラー</title>
+		<link>/blog/vbnet_desktop_heap_err/</link>
+		<comments>/blog/vbnet_desktop_heap_err/#respond</comments>
+		<pubDate>Mon, 22 Aug 2011 02:40:06 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=19</guid>
+		<description><![CDATA[納品しているプログラムが先方環境だと定期的に落ちるという報告があったので調査したところWindow Handleの作成に失敗するというエラーログが出力されていた。 Win APIを直接触るわけでもなくWindow Han [&#8230;]]]></description>
+		<wfw:commentRss>/blog/vbnet_desktop_heap_err/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

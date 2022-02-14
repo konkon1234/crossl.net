@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>つぶやき &#8211; memocon</title>
+	<atom:link href="/blog/category/tweet/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>ConEmuでカレントディレクトリのタブ追加</title>
+		<link>/blog/conemu_add_tab/</link>
+		<comments>/blog/conemu_add_tab/#respond</comments>
+		<pubDate>Thu, 03 Sep 2015 01:47:18 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2849</guid>
+		<description><![CDATA[[crayon-590a90fb96828296244101/] 別窓なら-singleを外す。]]></description>
+		<wfw:commentRss>/blog/conemu_add_tab/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>qnote猫社員 膝乗せコレクション2015</title>
+		<link>/blog/cats_carry_in/</link>
+		<comments>/blog/cats_carry_in/#respond</comments>
+		<pubDate>Mon, 09 Mar 2015 12:15:59 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2659</guid>
+		<description><![CDATA[先日、はなが膝の上に乗ったことによりqnoteの（猫社員）膝載せコレクションが完成しました！ （猫社員の紹介はこちら） 見てくれている人に訴えたいのは、１匹を除いて猫社員自ら僕の上に乗ってきたということです。 例外の１匹 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/cats_carry_in/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>シェル芸本で気になったリファクタリング・ウェットウェアのサンプルを読んでみた</title>
+		<link>/blog/refactoring_wetware01/</link>
+		<comments>/blog/refactoring_wetware01/#respond</comments>
+		<pubDate>Sat, 23 Aug 2014 05:45:30 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2309</guid>
+		<description><![CDATA[シェル芸本の最初の方にお勧め文献として紹介されていたリファクタリング・ウェットウェア。 調べてみたらちょうど読みたかった第一章がサンプルとして公開されていたので読んでみました。 「初心者にはコンテキストに依存しないルール [&#8230;]]]></description>
+		<wfw:commentRss>/blog/refactoring_wetware01/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Mac：Lion、Mountaion LionのOS再インストール時はDHCPが必須</title>
+		<link>/blog/mac_lion_reinstall/</link>
+		<comments>/blog/mac_lion_reinstall/#respond</comments>
+		<pubDate>Wed, 12 Dec 2012 09:38:07 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[mac]]></category>
+		<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1025</guid>
+		<description><![CDATA[【Apple】OS X：OS X での復元について http://support.apple.com/kb/HT4718?viewlocale=ja_JP ※引用 > OS X 復元を行うには、選択した Wi-Fi また [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mac_lion_reinstall/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>新宿電子楽器祭に行ってRoland箸を手に入れた</title>
+		<link>/blog/shinjuku_synth_matsuri/</link>
+		<comments>/blog/shinjuku_synth_matsuri/#respond</comments>
+		<pubDate>Fri, 12 Oct 2012 16:10:23 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[DTM]]></category>
+		<category><![CDATA[つぶやき]]></category>
+		<category><![CDATA[音楽]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=874</guid>
+		<description><![CDATA[西新宿で開催された新宿電子楽器祭に行ってきました。 楽器フェアとかと違って閉校した小学校を利用した会場はどこか懐かしい感じがしました。 その中でDTMセミナーや自作の電子機器の即売会などをやっているのはどこか違和感があり [&#8230;]]]></description>
+		<wfw:commentRss>/blog/shinjuku_synth_matsuri/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>現職１周年目に40度の発熱で病欠した</title>
+		<link>/blog/got_a_fever/</link>
+		<comments>/blog/got_a_fever/#respond</comments>
+		<pubDate>Thu, 11 Oct 2012 15:28:45 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=858</guid>
+		<description><![CDATA[先週、３０代になって初めて４０度を超える発熱を発症してしまいました。 しかも現職場に転職してから１周年の節目というタイミングに。 幸いなのかわかりませんが発熱したのが週末だったので月・火と２日の病欠でなんとか復活出来たの [&#8230;]]]></description>
+		<wfw:commentRss>/blog/got_a_fever/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PHP：csvファイルの読み込みでfgetcsvを使用すると文字化けする対応</title>
+		<link>/blog/php_csv/</link>
+		<comments>/blog/php_csv/#respond</comments>
+		<pubDate>Fri, 23 Mar 2012 03:56:21 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+		<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=426</guid>
+		<description><![CDATA[phpにはcsvを読み込むfgetcsvという標準関数があるがマルチバイト系の処理に難がある。 ちょっとググってみるだけでもかなりの情報が出てくるので日本語を含むcsvを読み取るには使用しない方が無難。 じゃあどうするか [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php_csv/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>久々にゲームにはまった（Wiiであそぶピクミン2）</title>
+		<link>/blog/pikumin/</link>
+		<comments>/blog/pikumin/#respond</comments>
+		<pubDate>Sat, 11 Feb 2012 11:48:02 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=298</guid>
+		<description><![CDATA[考えてみれば近年、全くゲームをやらなくなっていた。 特に嫌いになった訳でもなく、ただ興味が湧かなくなったのが原因だ。 考えてみればもう５～６年ぐらいやっていないだろうか。 ハード的にはPlay Stationやセガサター [&#8230;]]]></description>
+		<wfw:commentRss>/blog/pikumin/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ト　リ　カ　ラ</title>
+		<link>/blog/torikara/</link>
+		<comments>/blog/torikara/#respond</comments>
+		<pubDate>Sat, 19 Nov 2011 04:08:04 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=163</guid>
+		<description><![CDATA[う～ もらった！！！ はぁ、カワユス(*´Д｀*)]]></description>
+		<wfw:commentRss>/blog/torikara/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iPhoneで参考書を読む</title>
+		<link>/blog/iphone_ebook/</link>
+		<comments>/blog/iphone_ebook/#respond</comments>
+		<pubDate>Sat, 22 Oct 2011 16:36:00 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[つぶやき]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=113</guid>
+		<description><![CDATA[最近、電車での暇つぶしの為にiPhoneでの電子辞書で参考書を読むということを行っている。 そもそもの理由は会社を変えた時に自分の業務内容がサーバサイドだけでなくフロントエンド側の処理も求められるようになったのと、多少通 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/iphone_ebook/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

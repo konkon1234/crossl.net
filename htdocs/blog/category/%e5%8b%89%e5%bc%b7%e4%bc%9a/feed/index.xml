@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>勉強会 &#8211; memocon</title>
+	<atom:link href="/blog/category/%E5%8B%89%E5%BC%B7%E4%BC%9A/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>IT業界LT小規模発表勉強大会でXvfb + Seleniumについて発表してきた</title>
+		<link>/blog/20160604_itlt/</link>
+		<comments>/blog/20160604_itlt/#respond</comments>
+		<pubDate>Sat, 04 Jun 2016 13:36:28 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Selenium]]></category>
+		<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2928</guid>
+		<description><![CDATA[「発表慣れ」する為に発表者として「IT業界LT小規模発表勉強大会」に参加してきました。 http://connpass.com/event/31359/ Lravel Meetup Tokyo Vol.6でのLTでは、緊 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/20160604_itlt/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第3回 日本Seleniumユーザーコミュニティ勉強会に参加してきた</title>
+		<link>/blog/selenium_driver_session_201602/</link>
+		<comments>/blog/selenium_driver_session_201602/#respond</comments>
+		<pubDate>Sat, 06 Feb 2016 14:16:24 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2915</guid>
+		<description><![CDATA[第3回 日本Seleniumユーザーコミュニティ勉強会に参加してきました。 前回も参加したんですがこの勉強会はとても楽しいです、その記事はこちらです。 第2回 日本Seleniumユーザーコミュニティ勉強会に参加してきた [&#8230;]]]></description>
+		<wfw:commentRss>/blog/selenium_driver_session_201602/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>「第1回FlectMeetup MEANスタック＋HerokuでWebサービスを作ろう！」に参加してきた</title>
+		<link>/blog/join_flect_meetup_1/</link>
+		<comments>/blog/join_flect_meetup_1/#respond</comments>
+		<pubDate>Thu, 10 Sep 2015 22:36:36 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2853</guid>
+		<description><![CDATA[仕事でAngularJSと絡む機会が出てきそうだったので「第1回FlectMeetup MEANスタック＋HerokuでWebサービスを作ろう！」に参加してきました。 https://flect.doorkeeper.j/ [&#8230;]]]></description>
+		<wfw:commentRss>/blog/join_flect_meetup_1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Laravel Meetup Tokyo Vol.6 に参加してLTしてきた</title>
+		<link>/blog/laravel-meetup-tokyo-vol-6/</link>
+		<comments>/blog/laravel-meetup-tokyo-vol-6/#respond</comments>
+		<pubDate>Mon, 15 Jun 2015 11:43:31 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2811</guid>
+		<description><![CDATA[Laravel Meetup Tokyo Vol.6に参戦してきました。 https://laravel.doorkeeper.jp/events/24619 この勉強会がある週から1年半ぶりぐらいに5.0を触っていまし [&#8230;]]]></description>
+		<wfw:commentRss>/blog/laravel-meetup-tokyo-vol-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第3回かわいいKotlin勉強会に参加してきた</title>
+		<link>/blog/kawaii_kotlin3/</link>
+		<comments>/blog/kawaii_kotlin3/#respond</comments>
+		<pubDate>Sun, 07 Jun 2015 02:19:41 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2777</guid>
+		<description><![CDATA[第3回 かわいいKotlin勉強会に参加してきました。 ロゴもかわいい。 https://kotlin.doorkeeper.jp/events/23515 もう5年ぐらい業務でJavaすら触っていないLL or .Ne [&#8230;]]]></description>
+		<wfw:commentRss>/blog/kawaii_kotlin3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>江戸前セキュリティ勉強会（201505)に参加してきた</title>
+		<link>/blog/edomaesec_201505/</link>
+		<comments>/blog/edomaesec_201505/#respond</comments>
+		<pubDate>Sat, 30 May 2015 14:31:43 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2748</guid>
+		<description><![CDATA[江戸前セキュリティ勉強会（201505)に初参戦してきました。 https://sites.google.com/site/edomaesec/workshop/edomaesec201505 徳丸さん目当てだったのです [&#8230;]]]></description>
+		<wfw:commentRss>/blog/edomaesec_201505/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PI Study #7 「Gebを用いたWebテスト入門（ハンズオン）」に参加してきた</title>
+		<link>/blog/pi_study_7/</link>
+		<comments>/blog/pi_study_7/#respond</comments>
+		<pubDate>Sun, 12 Apr 2015 10:28:16 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2691</guid>
+		<description><![CDATA[PI Study #7 「Gebを用いたWebテスト入門（ハンズオン）」に参加してきました。 https://pistudy.doorkeeper.jp/events/22425 E2Eテスト関係の勉強会は第2回 日本S [&#8230;]]]></description>
+		<wfw:commentRss>/blog/pi_study_7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

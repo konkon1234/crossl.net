@@ -1,0 +1,57 @@
+.text-center {
+	text-align: center;
+}
+
+.page {
+	padding: 20px 0;
+}
+
+.main-logo {
+	max-width: 400px;
+	width: 100%;
+}
+
+.page-header { 
+	text-align: center;
+}
+
+.txt-min {
+	font-size: 12px;
+}
+
+.profile-image {
+	border-radius: 50%;
+}
+
+.my-field-list {
+	text-align: center;
+}
+
+.my-field-list li {
+	display: inline;
+}
+
+.my-field-list li:not(:first-child) {
+}
+
+.my-field-list li:not(:first-child):before {
+	content: " / ";
+}
+
+.contents-list .old {
+	margin-top: 20px;
+}
+
+.about-info {
+	text-align: center;
+}
+.about-info ul {
+	margin: 0;
+	list-style-type: none;
+}
+.about-info dt {
+	font-weight: bold;
+}
+.about-info dd {
+	margin: 0 0 30px;
+}

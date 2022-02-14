@@ -1,0 +1,8 @@
+h2:before {
+	content: "○";
+}
+
+h3 {
+	padding-top: 1rem;
+	border-top: solid 1px #999;
+}

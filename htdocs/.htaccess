@@ -1,0 +1,10 @@
+#php_value auto_prepend_file /var/sites/crossl.net/data/filter/prepareheader.php
+#ErrorDocument 404 /err/404.php
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteCond %{HTTP_REFERER} \.ru [NC,OR]
+#    RewriteCond %{HTTP_REFERER} \.ra [NC,OR]
+#    RewriteCond %{HTTP_REFERER} \.cn [NC]
+#    RewriteCond %{HTTP_REFERER} ^.* [NC]
+#    RewriteRule .*    [F]
+#</IfModule>

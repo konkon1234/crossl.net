@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+  <meta charset="UTF-8">
+  <title>LT: Laravel5.0を2日触ったばかりの人が5.1にあげた話</title>
+  <link rel="stylesheet" href="./assets/revealjs/css/reveal.css">
+  <link rel="stylesheet" href="./assets/revealjs/css/theme/white.css">
+  <link rel="stylesheet" href="./assets/revealjs/lib/css/zenburn.css">
+  <link rel="stylesheet" href="./assets/css/overwrite.css">
+</head>
+<body>
+  <pre style="display:none"><code></code></pre>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="contents.md"
+         data-separator="^\n\n"
+         data-separator-vertical="^\n\n\n"
+         data-separator-notes="^Note:"
+         data-charset="UTF-8">
+      </section>
+    </div>
+  </div>
+  <script type="text/javascript" src="./assets/revealjs/lib/js/head.min.js"></script>
+  <script type="text/javascript" src="./assets/revealjs/js/reveal.js"></script>
+  <script type="text/javascript">
+    Reveal.initialize({
+      controls: false,
+      progress: true,
+      history: true,
+      center: false,
+      autoCenter: false,
+
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+        { src: 'assets/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'assets/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'assets/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'assets/revealjs/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'assets/revealjs/plugin/zoom-js/zoom.js', async: true },
+        { src: 'assets/revealjs/plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>linux &#8211; memocon</title>
+	<atom:link href="/blog/category/linux/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>PHPで送ったメールをOutlookで確認するとヘッダが本文に表示されたり改行が倍になったりする</title>
+		<link>/blog/outlook_mail_trouble/</link>
+		<comments>/blog/outlook_mail_trouble/#respond</comments>
+		<pubDate>Fri, 24 Jan 2014 10:53:24 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2114</guid>
+		<description><![CDATA[サーバ環境が変わったとたんに秘伝のソースプロジェクトから送られたメールをOutlook（報告があったのは2003,2007）で確認すると本文中にメールヘッダが出てきたり、本文中の改行が2倍になったりする症状が発生した。  [&#8230;]]]></description>
+		<wfw:commentRss>/blog/outlook_mail_trouble/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CentOS6でyumを使ってmysqlからMariaDBにした（なった）話</title>
+		<link>/blog/mysql_to_mariadb/</link>
+		<comments>/blog/mysql_to_mariadb/#respond</comments>
+		<pubDate>Sat, 14 Dec 2013 19:27:27 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2038</guid>
+		<description><![CDATA[yumのサードパーティ製リポジトリ(CentALT)を追加してうっかりyum update時のパッケージリストを流しで確認する程度に更新したらmysqlがMariaDBになった。 yumのログを確認してみるとmysqlが [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mysql_to_mariadb/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>メール配信が絡む開発やテストで便利なアプリやサービス（Mailtrap, mailcatcher）</title>
+		<link>/blog/mail_test/</link>
+		<comments>/blog/mail_test/#respond</comments>
+		<pubDate>Wed, 04 Dec 2013 03:28:21 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1921</guid>
+		<description><![CDATA[メールの配信テストは失敗して外部アドレスに送ってしまうと取り返しのつかないことになってしまいます。 現に本番データでテストをして（この時点でおかしいが…）顧客にテストメールを誤配信したという現場に居合わせた経験があります [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mail_test/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ImageMagickで余白を付けると画像が切れてしまう</title>
+		<link>/blog/imagemagick_options/</link>
+		<comments>/blog/imagemagick_options/#respond</comments>
+		<pubDate>Thu, 18 Jul 2013 04:01:07 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1621</guid>
+		<description><![CDATA[古いサーバで動いているImageMagickで変わった現象が起きて困った。 そもそもバージョンがとても古い。 ImageMagick: 6.2.8 そして他のサーバ（Version: 6.7.6-9）で確認したところ発生 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/imagemagick_options/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>crontabでsudoを利用する時の注意点など</title>
+		<link>/blog/crontab/</link>
+		<comments>/blog/crontab/#respond</comments>
+		<pubDate>Mon, 20 May 2013 05:15:49 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[fuelPHP]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1462</guid>
+		<description><![CDATA[crontabでタスクを実行して日次や週次処理を実行するようなこと多いと思います。 その時に何も考えずにログインしたユーザでcrontabを設定していたらその時に生成されるログファイル等の所有者がapacheでなく仕掛け [&#8230;]]]></description>
+		<wfw:commentRss>/blog/crontab/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PHP:ssh2接続しscopyでファイル送受信</title>
+		<link>/blog/php_ssh2/</link>
+		<comments>/blog/php_ssh2/#respond</comments>
+		<pubDate>Mon, 25 Jun 2012 23:36:00 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=641</guid>
+		<description><![CDATA[ホスティング会社のファーストサーバが顧客のデータを削除し復旧できないという大失態をやらかしてから数日が経過し、サイト復旧の速さが日頃からデータのバックアップを取っているかというリスク管理の差で出ている。 ファーストサーバ [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php_ssh2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PHPで1次元バーコード表示（CODE 128）をgnu barcodeで行う</title>
+		<link>/blog/php_barcorde/</link>
+		<comments>/blog/php_barcorde/#comments</comments>
+		<pubDate>Mon, 12 Mar 2012 16:26:58 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=391</guid>
+		<description><![CDATA[会社で１次元バーコードを使用したいという依頼が「なるはやで」という文言が添えられてやってきた。 もともと表示するライブラリは使用していたらしいのだがそのライブラリでは 今回表示したいCODE 128という形式は表示できな [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php_barcorde/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>phpで外部コマンド実行(shell_exec)が上手くいかなかった時のメモ</title>
+		<link>/blog/linux_sudo/</link>
+		<comments>/blog/linux_sudo/#respond</comments>
+		<pubDate>Mon, 27 Feb 2012 04:54:48 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=329</guid>
+		<description><![CDATA[社内サーバでmailqを管理する簡易的なWebアプリを作っててはまったのでメモ。 目的 メールの即時配信をやめ、キューに溜めてWeb経由で閲覧・配信・削除をできるようにする。 CentOS / postfix 手順 １） [&#8230;]]]></description>
+		<wfw:commentRss>/blog/linux_sudo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

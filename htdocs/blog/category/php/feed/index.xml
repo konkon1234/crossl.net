@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>php &#8211; memocon</title>
+	<atom:link href="/blog/category/php/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Fri, 10 Mar 2017 07:51:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>phpでメールを受け取り処理をする</title>
+		<link>/blog/php-mail-parser/</link>
+		<comments>/blog/php-mail-parser/#respond</comments>
+		<pubDate>Wed, 19 Oct 2016 08:30:01 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2958</guid>
+		<description><![CDATA[今更感が強いですがやる度に調べてる感じがしたのでメモ。 メールをパースするのにphp-mime-mail-parser/php-mime-mail-parserが便利なのでインストール。 [crayon-590a904c [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php-mail-parser/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>php5.6からphp7へ移行した</title>
+		<link>/blog/php56-php7/</link>
+		<comments>/blog/php56-php7/#respond</comments>
+		<pubDate>Fri, 01 Jan 2016 05:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2908</guid>
+		<description><![CDATA[年も明けたのでこのサーバ（CentOS7）のphpを5.6から7に移行しました。 評判通り体感できるレベルで高速化された。 バージョンあげるだけで速度が改善されるなんてありがたい。 その際の作業メモ。 インストール手順  [&#8230;]]]></description>
+		<wfw:commentRss>/blog/php56-php7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>phpカンファレンス2014に参加してきた</title>
+		<link>/blog/phpcon2014/</link>
+		<comments>/blog/phpcon2014/#respond</comments>
+		<pubDate>Sat, 11 Oct 2014 16:01:51 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2325</guid>
+		<description><![CDATA[phpカンファレンス2014に参加してきたので忘れる前に書き留めます。 ちなみに去年のやつはこちら。 mysqlnd 徹底解説 20141011 mastering mysqlnd from do_aki あんまり意識し [&#8230;]]]></description>
+		<wfw:commentRss>/blog/phpcon2014/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第12回本当は怖くないシェル芸勉強会に参加してきた</title>
+		<link>/blog/shellgei20140802/</link>
+		<comments>/blog/shellgei20140802/#respond</comments>
+		<pubDate>Sun, 03 Aug 2014 16:15:48 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2256</guid>
+		<description><![CDATA[第12回本当は怖くないシェル芸勉強会&#038;第29回本が出たよUSP友の会定例会に参加してきました。 http://usptomo.doorkeeper.jp/events/12763 シェル芸本を買ったは良いけど時 [&#8230;]]]></description>
+		<wfw:commentRss>/blog/shellgei20140802/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PHPで送ったメールをOutlookで確認するとヘッダが本文に表示されたり改行が倍になったりする</title>
+		<link>/blog/outlook_mail_trouble/</link>
+		<comments>/blog/outlook_mail_trouble/#respond</comments>
+		<pubDate>Fri, 24 Jan 2014 10:53:24 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2114</guid>
+		<description><![CDATA[サーバ環境が変わったとたんに秘伝のソースプロジェクトから送られたメールをOutlook（報告があったのは2003,2007）で確認すると本文中にメールヘッダが出てきたり、本文中の改行が2倍になったりする症状が発生した。  [&#8230;]]]></description>
+		<wfw:commentRss>/blog/outlook_mail_trouble/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>【php】PDOでsql serverにWindows認証で接続する</title>
+		<link>/blog/pdo_windows_auth/</link>
+		<comments>/blog/pdo_windows_auth/#respond</comments>
+		<pubDate>Mon, 06 Jan 2014 11:15:06 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+		<category><![CDATA[Sql Server]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=2076</guid>
+		<description><![CDATA[今までsql server認証でしか接続したことなかったので微妙にはまったので備忘録。 確認環境 php : 5.4 PDO Driver : Microsoft Drivers 3.0 for PHP for SQL  [&#8230;]]]></description>
+		<wfw:commentRss>/blog/pdo_windows_auth/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>メール配信が絡む開発やテストで便利なアプリやサービス（Mailtrap, mailcatcher）</title>
+		<link>/blog/mail_test/</link>
+		<comments>/blog/mail_test/#respond</comments>
+		<pubDate>Wed, 04 Dec 2013 03:28:21 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[linux]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1921</guid>
+		<description><![CDATA[メールの配信テストは失敗して外部アドレスに送ってしまうと取り返しのつかないことになってしまいます。 現に本番データでテストをして（この時点でおかしいが…）顧客にテストメールを誤配信したという現場に居合わせた経験があります [&#8230;]]]></description>
+		<wfw:commentRss>/blog/mail_test/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Laravelでアンテナサイトを作ったよ</title>
+		<link>/blog/make_antena_site/</link>
+		<comments>/blog/make_antena_site/#respond</comments>
+		<pubDate>Fri, 04 Oct 2013 02:46:42 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Laravel]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1822</guid>
+		<description><![CDATA[主に自分用なアンテナサイトを作りました。 http://www.crossl.net/reader/ Crossl Readerという名前です。 自分用ですが趣味が似てる人には役に立つと思うので是非Twitterアカウン [&#8230;]]]></description>
+		<wfw:commentRss>/blog/make_antena_site/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>phpカンファレンスに参加してきた＆公開資料まとめ</title>
+		<link>/blog/phpcon2013/</link>
+		<comments>/blog/phpcon2013/#respond</comments>
+		<pubDate>Tue, 17 Sep 2013 05:57:27 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[php]]></category>
+		<category><![CDATA[日記]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1781</guid>
+		<description><![CDATA[去年は参加登録し忘れて行けなかったPHPカンファレンス。 そんな悲しい思い出があったので今年は忘れずに参加登録して、以下のセッションに参加しました。 inside pixiv&#8217;s infrastructure [&#8230;]]]></description>
+		<wfw:commentRss>/blog/phpcon2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Laravel4のartisanコマンド追加手順</title>
+		<link>/blog/laravel_artisan_command_add/</link>
+		<comments>/blog/laravel_artisan_command_add/#respond</comments>
+		<pubDate>Thu, 12 Sep 2013 03:36:57 +0000</pubDate>
+		<dc:creator><![CDATA[kon]]></dc:creator>
+				<category><![CDATA[Laravel]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1764</guid>
+		<description><![CDATA[Laravel4のartisanにコマンド追加するときの手順。 テンプレ作成の為にコマンド実行 コンソールで以下のコマンド実行。 [crayon-590a904c90a6f927473426/] これでapp/comma [&#8230;]]]></description>
+		<wfw:commentRss>/blog/laravel_artisan_command_add/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

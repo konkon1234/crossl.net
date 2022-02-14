@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>WordPress】記事を書くのが楽しくなるプラグインActive Preview へのコメント</title>
+	<atom:link href="/blog/wp-active-preview/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/wp-active-preview/</link>
+	<description>プログラミングのメモや物欲日記、雑記等</description>
+	<lastBuildDate>Sat, 11 Oct 2014 00:54:30 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>リアルタイムでプレビューしながら記事が書けるWordPressプラグイン「Active Preview」 &#124; Creator Clip より</title>
+		<link>/blog/wp-active-preview/#comment-1194</link>
+		<dc:creator><![CDATA[リアルタイムでプレビューしながら記事が書けるWordPressプラグイン「Active Preview」 &#124; Creator Clip]]></dc:creator>
+		<pubDate>Thu, 24 Apr 2014 03:07:05 +0000</pubDate>
+		<guid isPermaLink="false">http://www.crossl.net/blog/?p=1295#comment-1194</guid>
+		<description><![CDATA[[&#8230;]  [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;]  [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
